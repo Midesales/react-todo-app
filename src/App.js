@@ -52,9 +52,9 @@ function App() {
   });
 
   return (
-    <div className="container mx-auto mt-8">
-      <h1 className="text-3xl font-bold mb-4">Todo List</h1>
-      <div className="flex mb-4">
+    <div className="container mx-auto  bg-amber-500 min-h-screen min-w-full flex flex-col items-center text-white">
+      <h1 className="text-3xl font-bold mb-4 text-center p-8">Todo List</h1>
+      <div className="flex mb-4 justify-center">
         <input
           type="text"
           value={newTodo}
@@ -67,7 +67,7 @@ function App() {
       </div>
       <select
         onChange={filterTodo}
-        className="border p-2 mb-4"
+        className="border p-2 mb-4 flex justify-center"
         defaultValue="all"
       >
         <option value="all">All</option>
