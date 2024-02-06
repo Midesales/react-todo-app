@@ -52,7 +52,7 @@ function App() {
   });
 
   return (
-    <div className="container mx-auto  bg-amber-500 min-h-screen min-w-full flex flex-col items-center text-white">
+    <div className="container mx-auto  bg-amber-500 min-h-screen min-w-full flex flex-col items-center">
       <h1 className="text-3xl font-bold mb-4 text-center p-8">Todo List</h1>
       <div className="flex mb-4 justify-center">
         <input
